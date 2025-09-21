@@ -22,7 +22,7 @@ flowchart RL
     User ----> WAF
     WebServer1 ----> User
 
-
+```
 
 React UI: runs in the user browser
 
@@ -36,11 +36,16 @@ Flask Application Server: Hosts the backend application logic and API.
 
 PostgreSQL Database: one primary and one that serves as a reblica
 
+Iaas:
+
+```mermaid
 
 
 
 
 
+
+```mermaid
 
 flowchart LR
  subgraph ServerlessBackend["Serverless Backend"]
