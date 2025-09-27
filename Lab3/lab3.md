@@ -45,49 +45,49 @@ key components: <br>
 1. Network Infrastructure: Cloud-native networking: <br>
    Firewall/Router. <br>
    Load Balancer.  <br>
-2. Web Tier: IaaS (maintain control during transition):
-a-   Physical Web Servers.
-b-   Web Services.
-3. Application Tier: IaaS (maintain control during transition):
-a-   Monolithic Application.
-4. Data Tier: PaaS (reduced management overhead):
-a-   SQL Server Database.
-b-   Database Services.
-c-   Backup.
-5. Storage Tier: PaaS (improved scalability):
-a-    File Servers.
-6. Services Tier: SaaS (immediate cost savings):
-a-    Email Server.
+2. Web Tier: IaaS (maintain control during transition): <br>
+a-   Physical Web Servers. <br>
+b-   Web Services. <br>
+3. Application Tier: IaaS (maintain control during transition): <br>
+a-   Monolithic Application. <br>
+4. Data Tier: PaaS (reduced management overhead): <br>
+a-   SQL Server Database. <br>
+b-   Database Services. <br>
+c-   Backup. <br>
+5. Storage Tier: PaaS (improved scalability): <br>
+a-    File Servers. <br>
+6. Services Tier: SaaS (immediate cost savings): <br>
+a-    Email Server. <br>
 
     
 
-Section 2: Cloud Migration Strategy:
+Section 2: Cloud Migration Strategy: <br>
 
-1. Web Application Migration Strategy:
-Recommended Approach: IaaS (Initial) → PaaS (Long-term).
-The benefits of such strategy will be:
-Quick Win: Minimal code changes required.
-Risk Mitigation: Maintain current architecture during initial migration.
+1. Web Application Migration Strategy: <br>
+Recommended Approach: IaaS (Initial) → PaaS (Long-term). <br>
+The benefits of such strategy will be: <br>
+Quick Win: Minimal code changes required. <br>
+Risk Mitigation: Maintain current architecture during initial migration. <br>
 
-2. Database Migration Strategy:
-Recommended Approach: Hybrid → PaaS.
-The benefits of such strategy will be:
-a- Compatibility: IaaS SQL VM ensures 100% feature compatibility.
-b- Gradual Optimization: Move to PaaS after validating performance.
-Fallback Option: IaaS provides easy rollback capability.
+2. Database Migration Strategy: <br>
+Recommended Approach: Hybrid → PaaS. <br>
+The benefits of such strategy will be: <br>
+a- Compatibility: IaaS SQL VM ensures 100% feature compatibility. <br>
+b- Gradual Optimization: Move to PaaS after validating performance. <br>
+c- Fallback Option: IaaS provides easy rollback capability. <br>
 
-3. File Storage Migration Strategy:
-Recommended Approach: PaaS (Direct).
-The benefits of such strategy will be:
-Immediate cost savings and scalability.
-API Compatibility: Easy integration with application updates.
+3. File Storage Migration Strategy: <br>
+Recommended Approach: PaaS (Direct). <br>
+The benefits of such strategy will be: <br>
+a- Immediate cost savings and scalability. <br>
+b- API Compatibility: Easy integration with application updates. <br>
 
-4. Email Services Migration Strategy:
-Recommended Approach: SaaS (Direct).
-The benefits of such strategy will be:
-Total Cost Ownership: Eliminates server maintenance costs.
-Feature Rich: Modern collaboration tools.
-Security: Enterprise-grade security and compliance.
+4. Email Services Migration Strategy: <br>
+Recommended Approach: SaaS (Direct). <br>
+The benefits of such strategy will be: <br>
+a- Total Cost Ownership: Eliminates server maintenance costs. <br>
+b- Feature Rich: Modern collaboration tools. <br>
+c- Security: Enterprise-grade security and compliance. <br>
 
 
 
