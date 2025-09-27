@@ -40,11 +40,11 @@ flowchart LR
     FileServer1 --> FileServer2
 
 ```
-Since the company is a mid-sized retail one, and asuming no special cases are in play:
-key components:
-1. Network Infrastructure: Cloud-native networking:
-   Firewall/Router.
-   Load Balancer. 
+Since the company is a mid-sized retail one, and asuming no special cases are in play: <br>
+key components: <br>
+1. Network Infrastructure: Cloud-native networking: <br>
+   Firewall/Router. <br>
+   Load Balancer.  <br>
 2. Web Tier: IaaS (maintain control during transition):
 a-   Physical Web Servers.
 b-   Web Services.
