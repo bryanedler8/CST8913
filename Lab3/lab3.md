@@ -42,21 +42,21 @@ flowchart LR
 ```
 Since the company is a mid-sized retail one, and asuming no special cases are in play:
 key components:
-1. Network Infrastructure: Cloud-native networking.
+1. Network Infrastructure: Cloud-native networking:
    Firewall/Router.
    Load Balancer. 
-2. Web Tier: IaaS (maintain control during transition)
+2. Web Tier: IaaS (maintain control during transition):
    Physical Web Servers.
    Web Services.
-3. Application Tier: IaaS (maintain control during transition)
+3. Application Tier: IaaS (maintain control during transition):
    Monolithic Application.
-4. Data Tier: PaaS (reduced management overhead).
+4. Data Tier: PaaS (reduced management overhead):
    SQL Server Database.
    Database Services.
    Backup.
-5. Storage Tier: PaaS (improved scalability).
+5. Storage Tier: PaaS (improved scalability):
     File Servers.
-6. Services Tier: SaaS (immediate cost savings).
+6. Services Tier: SaaS (immediate cost savings):
     Email Server.
 
     
