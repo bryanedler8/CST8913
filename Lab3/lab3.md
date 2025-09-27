@@ -46,18 +46,18 @@ key components:
    Firewall/Router.
    Load Balancer. 
 2. Web Tier: IaaS (maintain control during transition):
-   Physical Web Servers.
-   Web Services.
+a-   Physical Web Servers.
+b-   Web Services.
 3. Application Tier: IaaS (maintain control during transition):
-   Monolithic Application.
+a-   Monolithic Application.
 4. Data Tier: PaaS (reduced management overhead):
-   SQL Server Database.
-   Database Services.
-   Backup.
+a-   SQL Server Database.
+b-   Database Services.
+c-   Backup.
 5. Storage Tier: PaaS (improved scalability):
-    File Servers.
+a-    File Servers.
 6. Services Tier: SaaS (immediate cost savings):
-    Email Server.
+a-    Email Server.
 
     
 
@@ -72,8 +72,8 @@ Risk Mitigation: Maintain current architecture during initial migration.
 2. Database Migration Strategy:
 Recommended Approach: Hybrid → PaaS.
 The benefits of such strategy will be:
-Compatibility: IaaS SQL VM ensures 100% feature compatibility.
-Gradual Optimization: Move to PaaS after validating performance.
+a- Compatibility: IaaS SQL VM ensures 100% feature compatibility.
+b- Gradual Optimization: Move to PaaS after validating performance.
 Fallback Option: IaaS provides easy rollback capability.
 
 3. File Storage Migration Strategy:
