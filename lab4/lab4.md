@@ -46,6 +46,7 @@ a.	Containerization of the web application:
    - Creating  Kubernetes deployment manifest
    
 b.	Migration of the database to a managed SQL service.
+
       	 Pre-migration
    - Perform full database backup
    - Run Data Migration Assistant for compatibility check
