@@ -1,5 +1,5 @@
 1.	Solution Diagram:
-```
+```mermaid
 flowchart LR
  subgraph NodePool1["Node Pool - Primary Region"]
         Pod1["Web App Pod<br>Node.js Container"]
