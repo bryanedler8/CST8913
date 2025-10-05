@@ -34,7 +34,7 @@ flowchart LR
 
 ```
 
-2.	A description of the target architecture:
+2.	A description of the target architecture:  
 The target architecture will include an Azure Firewall the links the internet with an Azure load balancer. To make use of Azure Kubernetes Service (AKS), The load balancer is connected to an Ingress Controller load balancer, that manages external HTTP-like traffic access to services within a cluster.  The Ingress load balancer is connected to multiple Web app pod Node.js containers, which will be connected to the primary Azure SQL Database. The primary Database will be connected to the secondary database as a backup.
 
 3.	The steps of migration:
