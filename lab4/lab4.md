@@ -38,26 +38,26 @@ flowchart LR
 The target architecture will include an Azure Firewall the links the internet with an Azure load balancer. To make use of Azure Kubernetes Service (AKS), The load balancer is connected to an Ingress Controller load balancer, that manages external HTTP-like traffic access to services within a cluster.  The Ingress load balancer is connected to multiple Web app pod Node.js containers, which will be connected to the primary Azure SQL Database. The primary Database will be connected to the secondary database as a backup.
 
 3.	The steps of migration:
-   <br>
+   
 a.	Containerization of the web application:
    - Creating Dockerfile and .dockerignore
    - Building and testing container image locally
    - Pushing the image to Azure Container Registry 
    - Creating  Kubernetes deployment manifest
-     <br>
+   
 b.	Migration of the database to a managed SQL service.
       	 Pre-migration
    - Perform full database backup
    - Run Data Migration Assistant for compatibility check
    - Resize Azure SQL DB based on current usage
-<br>
+
        Migration Execution
    - Start continuous data replication
    - Monitor replication lag and performance
    - Plan 6-hour downtime window for cutover
      <br>
 c.	Configuration of the Kubernetes cluster for high availability.
-<br>
+
 Best practice for Configuration of the Kubernetes:
 -	Specifying the latest stable API version.
 -	Storing Configuration files in version control before pushing them into the cluster. This allows you to quickly roll back a configuration change if necessary. It also aids cluster re-creation and restoration.
