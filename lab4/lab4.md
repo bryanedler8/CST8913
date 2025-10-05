@@ -55,7 +55,8 @@ b.	Migration of the database to a managed SQL service.
    - Start continuous data replication
    - Monitor replication lag and performance
    - Plan 6-hour downtime window for cutover
-     <br>
+
+    
 c.	Configuration of the Kubernetes cluster for high availability.
 
 Best practice for Configuration of the Kubernetes:
