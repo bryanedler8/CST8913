@@ -35,8 +35,10 @@
 ```
 Cloud Services Comparison: AWS vs Azure vs Google Cloud
 
-The Basics 
-When we look at the three major cloud providers - Amazon Web Services (AWS), Microsoft Azure, and Google Cloud - they all offer pretty much the same types of services, but with different names and some unique strengths. 
+The Basics
+
+When we look at the three major cloud providers - Amazon Web Services (AWS), Microsoft Azure, and Google Cloud - they all offer pretty much the same types of services, but with different names and some unique strengths.
+
 How They're Similar
 
 They All Have the Same Core Services:
