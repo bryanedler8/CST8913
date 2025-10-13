@@ -32,4 +32,64 @@
 | 28 | A file storage service for storing and sharing files with users, typically used in shared file systems across applications. | Amazon EFS (Elastic File System) | Azure Files | Google Cloud Filestore |
 | 29 | A service that helps you transcode, process, and stream media content such as video and audio. | AWS Elemental MediaConvert / MediaLive | Azure Media Services | Google Cloud Video Transcoder API |
 | 30 | A real-time communication service used for sending notifications, emails, and text messages to users and devices. | Amazon SNS (Simple Notification Service) | Azure Notification Hubs / Communication Services | Google Cloud Pub/Sub / Firebase Cloud Messaging |
+```
+Cloud Services Comparison: AWS vs Azure vs Google Cloud
+The Basics 
+When we look at the three major cloud providers - Amazon Web Services (AWS), Microsoft Azure, and Google Cloud - they all offer pretty much the same types of services, but with different names and some unique strengths. 
+How They're Similar 
+They All Have the Same Core Services
+•	Virtual Servers: AWS calls them EC2, Azure says Virtual Machines, Google says Compute Engine
+•	Cloud Storage: AWS has S3, Azure has Blob Storage, Google has Cloud Storage
+•	Serverless Computing: AWS Lambda vs Azure Functions vs Google Cloud Functions
+•	Managed Databases: All offer SQL and NoSQL options
+Common Benefits Across All Three
+•	Pay for what you use (no upfront costs)
+•	Automatic scaling when traffic increases
+•	Built-in security features
+•	Global data centers
+What Makes Each Provider Unique
+AWS 
+•	Has the most services 
+•	Been around the longest 
+•	Huge community and documentation
+•	Best for companies wanting the most options
+Cool Features:
+•	AWS Lambda started the serverless trend
+•	Amazon S3 is the industry standard for cloud storage
+•	Extensive global network
+Azure 
+•	Perfect for companies using Microsoft products
+•	Great for hybrid cloud (mixing cloud and on-premises)
+•	Strong security and compliance features
+•	Excellent for Windows-based applications
+Cool Features:
+•	Seamless integration with Office 365 and Windows
+•	Azure Arc manages multiple cloud environments
+•	Strong AI and machine learning tools
+Google Cloud 
+•	Best for data analytics and AI/ML
+•	Excellent container and Kubernetes support
+•	Strong in open source technologies
+•	Great for startups and tech companies
+Cool Features:
+•	BigQuery for super-fast data analysis
+•	Originally created Kubernetes
+•	Advanced machine learning capabilities
+Naming Differences 
+AWS Names
+•	Often include "Amazon" or "AWS"
+•	Technical sounding names
+•	Lots of acronyms (EC2, S3, RDS)
+•	Example: Amazon Elastic Compute Cloud (EC2)
+Azure Names
+•	Always start with "Azure"
+•	Business-friendly names
+•	Easier to understand
+•	Example: Azure Virtual Machines
+Google Cloud Names
+•	Usually start with "Google Cloud" or "Cloud"
+•	Clean, modern names
+•	Focus on functionality
+•	Example: Google Compute Engine
+
 
