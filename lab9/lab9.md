@@ -96,11 +96,11 @@ Strategic Adjustments to Control Future Costs:
    Data Lifecycle Policy: Enforce strict data lifecycle policies to automatically archive or delete old data, preventing storage costs from growing uncontrollably.
 
 References:
-https://azure.microsoft.com/en-us/pricing/calculator/
-https://learn.microsoft.com/en-us/azure/azure-monitor/autoscale/autoscale-overview
-https://azure.microsoft.com/en-us/pricing/details/azure-sql-database/single/
-https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-overview
-https://www.akamai.com/blog/cloud/cloud-migration-strategy
-https://learn.microsoft.com/en-us/azure/well-architected/cost-optimization/optimize-component-costs
+https://azure.microsoft.com/en-us/pricing/calculator/  
+https://learn.microsoft.com/en-us/azure/azure-monitor/autoscale/autoscale-overview  
+https://azure.microsoft.com/en-us/pricing/details/azure-sql-database/single/  
+https://learn.microsoft.com/en-us/azure/storage/blobs/access-tiers-overview  
+https://www.akamai.com/blog/cloud/cloud-migration-strategy  
+https://learn.microsoft.com/en-us/azure/well-architected/cost-optimization/optimize-component-costs  
 
 
