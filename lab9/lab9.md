@@ -3,9 +3,7 @@
 
  ShopPro International: Cloud Migration Cost Analysis & Strategy
 
-Date: October 26, 2023
-Prepared For: ShopPro International Management
-Cloud Providers Considered: AWS, Azure, GCP
+
 
  1. Cost Estimate Report
 
