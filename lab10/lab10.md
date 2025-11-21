@@ -12,7 +12,7 @@ CloudMed Solutions is a healthcare tech company. Their main product, MedConnect,
 They have customers in Canada, the USA, and Europe, so they need to use Azure data centers in **Canada Central** and **West Europe**.
 
 **Why do they NEED a Zero Trust Architecture?**
-Think of it this way: instead of building a strong castle wall and trusting everyone inside (the old way), Zero Trust assumes there are *already* attackers inside and outside. So, it **verifies every single request** as if it's coming from an untrusted network.
+We can think of it this way: instead of building a strong castle wall and trusting everyone inside (the old way), Zero Trust assumes that there are *already* attackers inside and outside. So, it **verifies every single request** as if it's coming from an untrusted network.
 
 *   **The Drivers:**
     *   **Compliance:** They handle super-sensitive health data. Laws like HIPAA (US), GDPR (Europe), and PIPEDA (Canada) require them to protect this data fiercely. Zero Trust helps them check all the compliance boxes.
