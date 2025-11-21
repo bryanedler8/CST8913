@@ -20,13 +20,13 @@ We can think of it this way: instead of building a strong castle wall and trusti
 
 ---
 
-### **2. Governance and Identity (The "Who Can Do What" Rules)**
+### **2. Governance and Identity**
 
-**a) Management Group Hierarchy (The Org Chart for Azure)**
+**a) Management Group Hierarchy**
 This is how we organize our Azure resources neatly. It lets us apply rules and access controls from the top down.
 
 ```
-Tenant Root (The whole company)
+Tenant Root
 └── CloudMed-Root
     ├── Platform         (Shared security & networking stuff)
     ├── Production       (Live, patient-facing environments)
@@ -34,15 +34,15 @@ Tenant Root (The whole company)
 
 ```
 
-**b) Governance Model (The Rulebook)**
-*   **RBAC (Role-Based Access Control):** Give people the *least privilege* they need to do their job.
+**b) Governance Model**
+*   **RBAC:** Give people the *least privilege* they need to do their job.
     *   **Adins:** Get Owner or Contributor on the Platform group. Powerful, but rarely used.
     *   **DevOps:** Get Contributor on the Dev/Prod groups to deploy apps, but not on the Platform group.
     *   **Finance:** Get Billing Reader on the Root to see costs, but can't change anything.
-*   **Azure Policy (The Automated Rule Enforcer):**
+*   **Azure Policy:**
     *   **Allowed Locations:** Force everyone to only create resources in Canada Central or West Europe.
     *   **Enforce Tagging:** Make sure every resource has tags like Cost-Center and Data-Classification=Confidential. This is crucial for cost tracking and security.
-*   **Identity with Azure Entra ID (The Secure ID Check):**
+*   **Identity with Azure Entra ID:**
     *   This is our main identity service (formerly Azure Active Directory).
     *   **MFA (Multi-Factor Authentication) is REQUIRED for everyone.** No MFA, no access.
     *   **Conditional Access:** Extra rules like, "If someone is logging in from an unknown country, block them" or "Only allow access from company-managed devices."
@@ -53,13 +53,13 @@ Tenant Root (The whole company)
 
 We're using a **Hub-and-Spoke** model. Imagine the Hub is a secure, fortified city center. The Spokes are different, gated neighborhoods connected to it.
 
-**Hub VNet (The Secure City Center):**
+**Hub VNet:**
 *   **Azure Firewall:** The main gatekeeper. All traffic going in or out between spokes, or to the internet, is inspected here.
-*   **Azure Bastion:** The super-secure secret tunnel. Admins can use this to log into VMs without exposing them to the public internet. No public IPs needed!
+*   **Azure Bastion:** The secure secret tunnel. Admins can use this to log into VMs without exposing them to the public internet. No public IPs needed!
 *   **Azure DNS:** Manages private domain names.
 *   **Log Analytics Workspace:** Collects all the network logs.
 
-**Spoke VNets (The Gated Neighborhoods):**
+**Spoke VNets:**
 Each tier of the application gets its own spoke. This is **segmentation** in action.
 *   **App Tier Spoke:** For the web and mobile front-ends.
 *   **API Tier Spoke:** For the backend services.
@@ -71,7 +71,7 @@ Each tier of the application gets its own spoke. This is **segmentation** in act
 
 ---
 
-### **4. Zero Trust Controls (Putting Principles into Action)**
+### **4. Zero Trust Controls**
 
 Here’s how we apply the three core principles into our design:
 
